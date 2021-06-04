@@ -14,6 +14,10 @@
 		271D998F265D1A4000DE2228 /* DefinitelyNotAlarmy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 271D998D265D1A4000DE2228 /* DefinitelyNotAlarmy.xcdatamodeld */; };
 		271D9991265D1A4100DE2228 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271D9990265D1A4100DE2228 /* Assets.xcassets */; };
 		271D9994265D1A4100DE2228 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271D9992265D1A4100DE2228 /* LaunchScreen.storyboard */; };
+		5F4DBCC02664320900A64C2C /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DBCBF2664320900A64C2C /* FeedViewController.swift */; };
+		5F4DBCC22664323500A64C2C /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DBCC12664323500A64C2C /* PreviewViewController.swift */; };
+		5F4DBCC42664324800A64C2C /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DBCC32664324800A64C2C /* FeedView.swift */; };
+		5F8A8CFF2666BF5300C4376A /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A8CFE2666BF5300C4376A /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		271D9990265D1A4100DE2228 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		271D9993265D1A4100DE2228 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		271D9995265D1A4100DE2228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F4DBCBF2664320900A64C2C /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		5F4DBCC12664323500A64C2C /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		5F4DBCC32664324800A64C2C /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		5F8A8CFE2666BF5300C4376A /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +92,7 @@
 		590BD65B265D245D000AA807 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				5FBC47FF26642FBD00E23B0D /* Feed */,
 				590BD65C265D249C000AA807 /* Musics */,
 			);
 			path = Presentation;
@@ -116,6 +125,33 @@
 			children = (
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5FBC47FF26642FBD00E23B0D /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				5FBC480A2664307300E23B0D /* ViewController */,
+				5FBC48072664306D00E23B0D /* View */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		5FBC48072664306D00E23B0D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5F4DBCC12664323500A64C2C /* PreviewViewController.swift */,
+				5F4DBCC32664324800A64C2C /* FeedView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5FBC480A2664307300E23B0D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5F4DBCBF2664320900A64C2C /* FeedViewController.swift */,
+				5F8A8CFE2666BF5300C4376A /* TabBarController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,10 +224,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F4DBCC42664324800A64C2C /* FeedView.swift in Sources */,
+				5F8A8CFF2666BF5300C4376A /* TabBarController.swift in Sources */,
+				5F4DBCC02664320900A64C2C /* FeedViewController.swift in Sources */,
 				271D998F265D1A4000DE2228 /* DefinitelyNotAlarmy.xcdatamodeld in Sources */,
 				271D9989265D1A4000DE2228 /* ViewController.swift in Sources */,
 				271D9985265D1A4000DE2228 /* AppDelegate.swift in Sources */,
 				271D9987265D1A4000DE2228 /* SceneDelegate.swift in Sources */,
+				5F4DBCC22664323500A64C2C /* PreviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

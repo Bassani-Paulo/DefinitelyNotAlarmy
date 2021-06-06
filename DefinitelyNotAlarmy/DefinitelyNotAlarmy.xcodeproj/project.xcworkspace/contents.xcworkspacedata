@@ -2,6 +2,21 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/macloving/Documents/GitHub/DefinitelyNotAlarmy/DefinitelyNotAlarmy/DefinitelyNotAlarmy/Main.storyboard">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/macloving/Documents/GitHub/DefinitelyNotAlarmy/DefinitelyNotAlarmy/DefinitelyNotAlarmy/AlarmScreenViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/macloving/Documents/GitHub/DefinitelyNotAlarmy/DefinitelyNotAlarmy/DefinitelyNotAlarmy/AlarmScreenViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/macloving/Documents/GitHub/DefinitelyNotAlarmy/DefinitelyNotAlarmy/DefinitelyNotAlarmy/AdTableViewCell.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/macloving/Documents/GitHub/DefinitelyNotAlarmy/DefinitelyNotAlarmy/DefinitelyNotAlarmy/AlarmTableViewCell.swift">
+   </FileRef>
+   <FileRef
       location = "self:">
    </FileRef>
 </Workspace>

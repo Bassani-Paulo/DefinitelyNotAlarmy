@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ywi-Zb-MlG">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -21,7 +21,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="140" estimatedRowHeight="366" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="c3a-Wt-fH9">
-                                <rect key="frame" x="0.0" y="44" width="390" height="766"/>
+                                <rect key="frame" x="0.0" y="44" width="390" height="717"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <view key="tableHeaderView" contentMode="scaleToFill" id="1XC-s3-lmf" userLabel="HeaderView">
                                     <rect key="frame" x="0.0" y="0.0" width="390" height="150"/>
@@ -343,12 +343,12 @@
                                 </constraints>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="c9M-nE-d6w">
-                                <rect key="frame" x="315" y="671.66666666666674" width="54" height="52"/>
+                                <rect key="frame" x="315" y="622.66666666666674" width="54" height="52"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="46"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eAE-ff-GCC">
-                                <rect key="frame" x="310.66666666666669" y="662.66666666666663" width="64.333333333333314" height="62.333333333333371"/>
+                                <rect key="frame" x="310.66666666666669" y="613.66666666666663" width="64.333333333333314" height="62.333333333333371"/>
                                 <state key="normal" image="plus.circle.fill" catalog="system">
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="55"/>
                                 </state>
@@ -373,23 +373,83 @@
                             <constraint firstItem="SIX-vs-Tik" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="vE5-Vs-NSS"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="" image="alarm" catalog="system" selectedImage="alarmSelected" id="1no-NE-T2U">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="selectedImageTintColor">
+                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="unselectedItemTintColor">
+                                <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
                     <connections>
                         <outlet property="alarmTableView" destination="c3a-Wt-fH9" id="XUR-og-iBd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="129.23076923076923" y="115.16587677725119"/>
+            <point key="canvasLocation" x="2291" y="-463"/>
+        </scene>
+        <!--Feed View Controller-->
+        <scene sceneID="NFQ-Pr-xem">
+            <objects>
+                <viewController id="G8R-HI-tkT" customClass="FeedViewController" customModule="DefinitelyNotAlarmy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rCc-vt-9dG" customClass="FeedView" customModule="DefinitelyNotAlarmy" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <viewLayoutGuide key="safeArea" id="wSG-iu-Otf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" id="X7f-Lq-xiE">
+                        <imageReference key="image" image="newspaper" catalog="system" symbolScale="default"/>
+                        <imageReference key="selectedImage" image="feedSelected" symbolScale="default"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="selectedImageTintColor">
+                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="unselectedItemTintColor">
+                                <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G7P-0k-bnG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2291" y="203"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="cai-RJ-8zf">
+            <objects>
+                <tabBarController id="ywi-Zb-MlG" sceneMemberID="viewController">
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" barStyle="black"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="2uS-oc-8QK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="83"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="NxB-Q3-wTs"/>
+                        <segue destination="G8R-HI-tkT" kind="relationship" relationship="viewControllers" id="ayO-wG-ewX"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gJY-ym-sd7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1080" y="-176"/>
         </scene>
     </scenes>
     <resources>
         <image name="Fresh-Dew-Grass-leaves-After-Rain-iphone-wallpaper-ilikewallpaper_com" width="213.33332824707031" height="378.66665649414062"/>
+        <image name="alarm" catalog="system" width="124" height="128"/>
+        <image name="alarmSelected" width="53" height="38"/>
         <image name="circle.fill" catalog="system" width="128" height="121"/>
         <image name="crown.fill" catalog="system" width="128" height="92"/>
         <image name="deskclock.fill" catalog="system" width="128" height="124"/>
         <image name="ellipsis" catalog="system" width="128" height="37"/>
+        <image name="feedSelected" width="53" height="36"/>
         <image name="gearshape.fill" catalog="system" width="128" height="121"/>
         <image name="info.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="newspaper" catalog="system" width="128" height="108"/>
         <image name="plus.circle.fill" catalog="system" width="128" height="121"/>
         <image name="tekpix" width="1968" height="609"/>
         <image name="x.circle" catalog="system" width="128" height="121"/>

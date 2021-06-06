@@ -13,10 +13,14 @@
 		271D998F265D1A4000DE2228 /* DefinitelyNotAlarmy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 271D998D265D1A4000DE2228 /* DefinitelyNotAlarmy.xcdatamodeld */; };
 		271D9991265D1A4100DE2228 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271D9990265D1A4100DE2228 /* Assets.xcassets */; };
 		271D9994265D1A4100DE2228 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271D9992265D1A4100DE2228 /* LaunchScreen.storyboard */; };
-		274FC0D9266AC0F10047323B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277016F7266AB88000408AE1 /* Main.storyboard */; };
-		277016F2266AB75700408AE1 /* AdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277016F1266AB75700408AE1 /* AdTableViewCell.swift */; };
-		277016F4266AB75D00408AE1 /* AlarmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277016F3266AB75D00408AE1 /* AlarmTableViewCell.swift */; };
-		277016F9266AB88300408AE1 /* AlarmScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277016F8266AB88300408AE1 /* AlarmScreenViewController.swift */; };
+		274FC0D9266AC0F10047323B /* (null) in Resources */ = {isa = PBXBuildFile; };
+		277016F9266AB88300408AE1 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		5F2B7632266D4EE3005F69DF /* AdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2B7628266D4EE3005F69DF /* AdTableViewCell.swift */; };
+		5F2B7634266D4EE3005F69DF /* AlarmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2B7625266D4EE3005F69DF /* AlarmTableViewCell.swift */; };
+		5F2B7636266D4EE3005F69DF /* AlarmScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2B762B266D4EE3005F69DF /* AlarmScreenViewController.swift */; };
+		5F4DE49D266D5A9900F48373 /* Presentation in Resources */ = {isa = PBXBuildFile; fileRef = 5F4DE49C266D5A9900F48373 /* Presentation */; };
+		5F6D23C2266D5ED3000CCBCB /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6D23C1266D5ED3000CCBCB /* FeedViewController.swift */; };
+		5FF88DFD266D521200F83F5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F2B762A266D4EE3005F69DF /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +31,15 @@
 		271D998E265D1A4000DE2228 /* DefinitelyNotAlarmy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DefinitelyNotAlarmy.xcdatamodel; sourceTree = "<group>"; };
 		271D9990265D1A4100DE2228 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		271D9993265D1A4100DE2228 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		271D9995265D1A4100DE2228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F2B7625266D4EE3005F69DF /* AlarmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AlarmTableViewCell.swift; path = /Users/vitorjmoriya/Documents/Academy/Challenges/DefinitelyNotAlarmy/DefinitelyNotAlarmy/DefinitelyNotAlarmy/AlarmTableViewCell.swift; sourceTree = "<absolute>"; };
+		5F2B7628266D4EE3005F69DF /* AdTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AdTableViewCell.swift; path = /Users/vitorjmoriya/Documents/Academy/Challenges/DefinitelyNotAlarmy/DefinitelyNotAlarmy/DefinitelyNotAlarmy/AdTableViewCell.swift; sourceTree = "<absolute>"; };
+		5F2B762A266D4EE3005F69DF /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = /Users/vitorjmoriya/Documents/Academy/Challenges/DefinitelyNotAlarmy/DefinitelyNotAlarmy/DefinitelyNotAlarmy/Main.storyboard; sourceTree = "<absolute>"; };
+		5F2B762B266D4EE3005F69DF /* AlarmScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AlarmScreenViewController.swift; path = /Users/vitorjmoriya/Documents/Academy/Challenges/DefinitelyNotAlarmy/DefinitelyNotAlarmy/DefinitelyNotAlarmy/AlarmScreenViewController.swift; sourceTree = "<absolute>"; };
+		5F2B762D266D4EE3005F69DF /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Base.lproj; path = /Users/vitorjmoriya/Documents/Academy/Challenges/DefinitelyNotAlarmy/DefinitelyNotAlarmy/DefinitelyNotAlarmy/Base.lproj; sourceTree = "<absolute>"; };
+		5F2B762E266D4EE3005F69DF /* DefinitelyNotAlarmy.xcdatamodeld */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodeld; name = DefinitelyNotAlarmy.xcdatamodeld; path = /Users/vitorjmoriya/Documents/Academy/Challenges/DefinitelyNotAlarmy/DefinitelyNotAlarmy/DefinitelyNotAlarmy/DefinitelyNotAlarmy.xcdatamodeld; sourceTree = "<absolute>"; };
+		5F2B762F266D4EE3005F69DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = /Users/vitorjmoriya/Documents/Academy/Challenges/DefinitelyNotAlarmy/DefinitelyNotAlarmy/DefinitelyNotAlarmy/Info.plist; sourceTree = "<absolute>"; };
+		5F4DE49C266D5A9900F48373 /* Presentation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Presentation; sourceTree = "<group>"; };
+		5F6D23C1266D5ED3000CCBCB /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,95 +72,23 @@
 		271D9983265D1A4000DE2228 /* DefinitelyNotAlarmy */ = {
 			isa = PBXGroup;
 			children = (
-				277016F1266AB75700408AE1 /* AdTableViewCell.swift */,
-				277016F3266AB75D00408AE1 /* AlarmTableViewCell.swift */,
-				277016F8266AB88300408AE1 /* AlarmScreenViewController.swift */,
-				277016F7266AB88000408AE1 /* Main.storyboard */,
-				590BD65B265D245D000AA807 /* Presentation */,
-				590BD65A265D244E000AA807 /* Structure */,
+				5F4DE49C266D5A9900F48373 /* Presentation */,
+				5F2B762D266D4EE3005F69DF /* Base.lproj */,
+				5F2B762E266D4EE3005F69DF /* DefinitelyNotAlarmy.xcdatamodeld */,
+				5F2B762F266D4EE3005F69DF /* Info.plist */,
+				5F2B762A266D4EE3005F69DF /* Main.storyboard */,
+				5F2B7628266D4EE3005F69DF /* AdTableViewCell.swift */,
+				5F2B762B266D4EE3005F69DF /* AlarmScreenViewController.swift */,
+				5F2B7625266D4EE3005F69DF /* AlarmTableViewCell.swift */,
 				271D9984265D1A4000DE2228 /* AppDelegate.swift */,
 				271D9986265D1A4000DE2228 /* SceneDelegate.swift */,
 				271D9988265D1A4000DE2228 /* ViewController.swift */,
 				271D9990265D1A4100DE2228 /* Assets.xcassets */,
 				271D9992265D1A4100DE2228 /* LaunchScreen.storyboard */,
-				271D9995265D1A4100DE2228 /* Info.plist */,
 				271D998D265D1A4000DE2228 /* DefinitelyNotAlarmy.xcdatamodeld */,
+				5F6D23C1266D5ED3000CCBCB /* FeedViewController.swift */,
 			);
 			path = DefinitelyNotAlarmy;
-			sourceTree = "<group>";
-		};
-		590BD65A265D244E000AA807 /* Structure */ = {
-			isa = PBXGroup;
-			children = (
-				590BD65F265D24E4000AA807 /* Extensions */,
-				590BD65E265D24DB000AA807 /* Components */,
-			);
-			path = Structure;
-			sourceTree = "<group>";
-		};
-		590BD65B265D245D000AA807 /* Presentation */ = {
-			isa = PBXGroup;
-			children = (
-				5FBC47FF26642FBD00E23B0D /* Feed */,
-				590BD65C265D249C000AA807 /* Musics */,
-			);
-			path = Presentation;
-			sourceTree = "<group>";
-		};
-		590BD65C265D249C000AA807 /* Musics */ = {
-			isa = PBXGroup;
-			children = (
-				590BD65D265D24B2000AA807 /* View */,
-			);
-			path = Musics;
-			sourceTree = "<group>";
-		};
-		590BD65D265D24B2000AA807 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		590BD65E265D24DB000AA807 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		590BD65F265D24E4000AA807 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		5FBC47FF26642FBD00E23B0D /* Feed */ = {
-			isa = PBXGroup;
-			children = (
-				5FBC480A2664307300E23B0D /* ViewController */,
-				5FBC48072664306D00E23B0D /* View */,
-			);
-			path = Feed;
-			sourceTree = "<group>";
-		};
-		5FBC48072664306D00E23B0D /* View */ = {
-			isa = PBXGroup;
-			children = (
-				5F4DBCC12664323500A64C2C /* PreviewViewController.swift */,
-				5F4DBCC32664324800A64C2C /* FeedView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		5FBC480A2664307300E23B0D /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				5F4DBCBF2664320900A64C2C /* FeedViewController.swift */,
-				5F8A8CFE2666BF5300C4376A /* TabBarController.swift */,
-			);
-			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,9 +148,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				274FC0D9266AC0F10047323B /* Main.storyboard in Resources */,
+				274FC0D9266AC0F10047323B /* (null) in Resources */,
 				271D9994265D1A4100DE2228 /* LaunchScreen.storyboard in Resources */,
 				271D9991265D1A4100DE2228 /* Assets.xcassets in Resources */,
+				5F4DE49D266D5A9900F48373 /* Presentation in Resources */,
+				5FF88DFD266D521200F83F5B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +163,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F4DBCC42664324800A64C2C /* FeedView.swift in Sources */,
-				5F8A8CFF2666BF5300C4376A /* TabBarController.swift in Sources */,
-				5F4DBCC02664320900A64C2C /* FeedViewController.swift in Sources */,
 				271D998F265D1A4000DE2228 /* DefinitelyNotAlarmy.xcdatamodeld in Sources */,
-				277016F9266AB88300408AE1 /* AlarmScreenViewController.swift in Sources */,
+				5F6D23C2266D5ED3000CCBCB /* FeedViewController.swift in Sources */,
+				277016F9266AB88300408AE1 /* (null) in Sources */,
 				271D9989265D1A4000DE2228 /* ViewController.swift in Sources */,
 				271D9985265D1A4000DE2228 /* AppDelegate.swift in Sources */,
 				271D9987265D1A4000DE2228 /* SceneDelegate.swift in Sources */,
+				5F2B7636266D4EE3005F69DF /* AlarmScreenViewController.swift in Sources */,
+				5F2B7632266D4EE3005F69DF /* AdTableViewCell.swift in Sources */,
+				5F2B7634266D4EE3005F69DF /* AlarmTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

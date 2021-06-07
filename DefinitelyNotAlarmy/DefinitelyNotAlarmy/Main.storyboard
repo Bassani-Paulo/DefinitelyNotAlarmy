@@ -70,6 +70,9 @@
                                                                 </label>
                                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Iaf-BQ-JdN">
                                                                     <rect key="frame" x="263" y="26" width="51" height="31"/>
+                                                                    <connections>
+                                                                        <action selector="alarmSwitch:" destination="anL-kY-hsd" eventType="valueChanged" id="boV-gG-fqU"/>
+                                                                    </connections>
                                                                 </switch>
                                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eAi-Ve-uhD">
                                                                     <rect key="frame" x="326.66666666666669" y="30.666666666666671" width="30.666666666666686" height="22"/>
@@ -184,6 +187,14 @@
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <outlet property="alarmTime" destination="NCb-0P-cf8" id="Aw9-b3-LsS"/>
+                                            <outlet property="cellView" destination="KXQ-uP-p8V" id="VEG-m1-tkQ"/>
+                                            <outlet property="fridayView" destination="gfV-ux-Dhh" id="Vmi-Uz-0Hg"/>
+                                            <outlet property="mondayView" destination="TCm-gL-7d6" id="iJK-qx-mcM"/>
+                                            <outlet property="saturdayView" destination="xSE-cp-Y8p" id="EoM-Du-qqz"/>
+                                            <outlet property="sundayView" destination="usl-QR-A9S" id="bod-Gt-rhb"/>
+                                            <outlet property="thursdayView" destination="48F-8v-Fks" id="rrM-Z0-CWk"/>
+                                            <outlet property="tuesdayView" destination="iqg-nW-6gl" id="IhY-0c-NgG"/>
+                                            <outlet property="wednsdayView" destination="8yg-6Q-egr" id="1uk-MT-ZKs"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="AdCell" id="LDo-U5-ZkB" customClass="AdTableViewCell" customModule="DefinitelyNotAlarmy" customModuleProvider="target">

@@ -9,6 +9,22 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Sleep Music View-->
+        <scene sceneID="iCK-Sm-DrO">
+            <objects>
+                <viewController title="Sleep Music View" id="HYP-cE-duq" customClass="SleepMusicViewController" customModule="DefinitelyNotAlarmy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9pB-qS-mTX" customClass="SleepMusicsView" customModule="DefinitelyNotAlarmy" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="nru-oT-2xS"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="moon.stars.fill" catalog="system" selectedImage="musicSelected" id="Jsh-vT-uHM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ptb-Ty-Wce" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1078" y="-989"/>
+        </scene>
         <!--Alarm Screen View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -441,6 +457,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="NxB-Q3-wTs"/>
+                        <segue destination="HYP-cE-duq" kind="relationship" relationship="viewControllers" id="XP6-WG-dak"/>
                         <segue destination="G8R-HI-tkT" kind="relationship" relationship="viewControllers" id="ayO-wG-ewX"/>
                         <segue destination="QmW-qG-gyj" kind="relationship" relationship="viewControllers" id="TZh-h8-Plh"/>
                     </connections>
@@ -486,7 +503,7 @@
     <resources>
         <image name="Fresh-Dew-Grass-leaves-After-Rain-iphone-wallpaper-ilikewallpaper_com" width="213.33332824707031" height="378.66665649414062"/>
         <image name="alarm" catalog="system" width="124" height="128"/>
-        <image name="alarmSelected" width="128" height="128"/>
+        <image name="alarmSelected" width="53" height="38"/>
         <image name="circle.fill" catalog="system" width="128" height="121"/>
         <image name="crown.fill" catalog="system" width="128" height="92"/>
         <image name="deskclock.fill" catalog="system" width="128" height="124"/>
@@ -494,6 +511,8 @@
         <image name="feedSelected" width="53" height="36"/>
         <image name="gearshape.fill" catalog="system" width="128" height="121"/>
         <image name="info.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="moon.stars.fill" catalog="system" width="128" height="124"/>
+        <image name="musicSelected" width="53" height="38"/>
         <image name="newspaper" catalog="system" width="128" height="108"/>
         <image name="optionsSelected" width="53" height="44"/>
         <image name="placeholderSettings" width="390" height="844"/>

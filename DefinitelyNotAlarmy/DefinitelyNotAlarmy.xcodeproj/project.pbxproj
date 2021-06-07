@@ -20,6 +20,13 @@
 		5F2B7636266D4EE3005F69DF /* AlarmScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2B762B266D4EE3005F69DF /* AlarmScreenViewController.swift */; };
 		5F4DE49D266D5A9900F48373 /* Presentation in Resources */ = {isa = PBXBuildFile; fileRef = 5F4DE49C266D5A9900F48373 /* Presentation */; };
 		5F6D23CE266D84A3000CCBCB /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6D23CD266D84A3000CCBCB /* FeedViewController.swift */; };
+		5F8AAE1E266E3CE4006D266B /* Protocols in Resources */ = {isa = PBXBuildFile; fileRef = 5F8AAE1D266E3CE4006D266B /* Protocols */; };
+		5F8AAE23266E3D84006D266B /* SleepMuscisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8AAE22266E3D84006D266B /* SleepMuscisView.swift */; };
+		5F8AAE24266E3D84006D266B /* MusicViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8AAE21266E3D84006D266B /* MusicViewCell.swift */; };
+		5F8AAE26266E3D90006D266B /* ViewCodeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8AAE25266E3D90006D266B /* ViewCodeProtocol.swift */; };
+		5F8AAE27266E3D93006D266B /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8AAE20266E3CE6006D266B /* UIView+Extensions.swift */; };
+		5F8AAE29266E3D99006D266B /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8AAE28266E3D99006D266B /* Music.swift */; };
+		5F8AAE2B266E3EAC006D266B /* SleepMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8AAE2A266E3EAC006D266B /* SleepMusicViewController.swift */; };
 		5FF88DFD266D521200F83F5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F2B762A266D4EE3005F69DF /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +47,13 @@
 		5F2B762F266D4EE3005F69DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = /Users/vitorjmoriya/Documents/Academy/Challenges/DefinitelyNotAlarmy/DefinitelyNotAlarmy/DefinitelyNotAlarmy/Info.plist; sourceTree = "<absolute>"; };
 		5F4DE49C266D5A9900F48373 /* Presentation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Presentation; sourceTree = "<group>"; };
 		5F6D23CD266D84A3000CCBCB /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		5F8AAE1D266E3CE4006D266B /* Protocols */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Protocols; sourceTree = "<group>"; };
+		5F8AAE20266E3CE6006D266B /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		5F8AAE21266E3D84006D266B /* MusicViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewCell.swift; sourceTree = "<group>"; };
+		5F8AAE22266E3D84006D266B /* SleepMuscisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepMuscisView.swift; sourceTree = "<group>"; };
+		5F8AAE25266E3D90006D266B /* ViewCodeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodeProtocol.swift; sourceTree = "<group>"; };
+		5F8AAE28266E3D99006D266B /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		5F8AAE2A266E3EAC006D266B /* SleepMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepMusicViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +86,13 @@
 		271D9983265D1A4000DE2228 /* DefinitelyNotAlarmy */ = {
 			isa = PBXGroup;
 			children = (
+				5F8AAE28266E3D99006D266B /* Music.swift */,
+				5F8AAE20266E3CE6006D266B /* UIView+Extensions.swift */,
+				5F8AAE25266E3D90006D266B /* ViewCodeProtocol.swift */,
+				5F8AAE21266E3D84006D266B /* MusicViewCell.swift */,
+				5F8AAE22266E3D84006D266B /* SleepMuscisView.swift */,
+				5F8AAE1F266E3CE6006D266B /* Extensions */,
+				5F8AAE1D266E3CE4006D266B /* Protocols */,
 				5F4DE49C266D5A9900F48373 /* Presentation */,
 				5F2B762D266D4EE3005F69DF /* Base.lproj */,
 				5F2B762E266D4EE3005F69DF /* DefinitelyNotAlarmy.xcdatamodeld */,
@@ -87,8 +108,16 @@
 				271D9992265D1A4100DE2228 /* LaunchScreen.storyboard */,
 				271D998D265D1A4000DE2228 /* DefinitelyNotAlarmy.xcdatamodeld */,
 				5F6D23CD266D84A3000CCBCB /* FeedViewController.swift */,
+				5F8AAE2A266E3EAC006D266B /* SleepMusicViewController.swift */,
 			);
 			path = DefinitelyNotAlarmy;
+			sourceTree = "<group>";
+		};
+		5F8AAE1F266E3CE6006D266B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +177,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F8AAE1E266E3CE4006D266B /* Protocols in Resources */,
 				274FC0D9266AC0F10047323B /* (null) in Resources */,
 				271D9994265D1A4100DE2228 /* LaunchScreen.storyboard in Resources */,
 				271D9991265D1A4100DE2228 /* Assets.xcassets in Resources */,
@@ -163,15 +193,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F8AAE23266E3D84006D266B /* SleepMuscisView.swift in Sources */,
+				5F8AAE26266E3D90006D266B /* ViewCodeProtocol.swift in Sources */,
 				271D998F265D1A4000DE2228 /* DefinitelyNotAlarmy.xcdatamodeld in Sources */,
 				277016F9266AB88300408AE1 /* (null) in Sources */,
 				5F6D23CE266D84A3000CCBCB /* FeedViewController.swift in Sources */,
+				5F8AAE27266E3D93006D266B /* UIView+Extensions.swift in Sources */,
 				271D9989265D1A4000DE2228 /* ViewController.swift in Sources */,
 				271D9985265D1A4000DE2228 /* AppDelegate.swift in Sources */,
 				271D9987265D1A4000DE2228 /* SceneDelegate.swift in Sources */,
 				5F2B7636266D4EE3005F69DF /* AlarmScreenViewController.swift in Sources */,
 				5F2B7632266D4EE3005F69DF /* AdTableViewCell.swift in Sources */,
+				5F8AAE29266E3D99006D266B /* Music.swift in Sources */,
+				5F8AAE2B266E3EAC006D266B /* SleepMusicViewController.swift in Sources */,
 				5F2B7634266D4EE3005F69DF /* AlarmTableViewCell.swift in Sources */,
+				5F8AAE24266E3D84006D266B /* MusicViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

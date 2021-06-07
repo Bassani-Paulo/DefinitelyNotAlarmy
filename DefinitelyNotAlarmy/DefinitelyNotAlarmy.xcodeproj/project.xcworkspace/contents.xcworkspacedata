@@ -2,6 +2,42 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/vitorjmoriya/Documents/Academy/Challenges/DefinitelyNotAlarmy/DefinitelyNotAlarmy/DefinitelyNotAlarmy/AdTableViewCell.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/vitorjmoriya/Documents/Academy/Challenges/DefinitelyNotAlarmy/DefinitelyNotAlarmy/DefinitelyNotAlarmy/AlarmScreenViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/vitorjmoriya/Documents/Academy/Challenges/DefinitelyNotAlarmy/DefinitelyNotAlarmy/DefinitelyNotAlarmy/AlarmTableViewCell.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/vitorjmoriya/Documents/Academy/Challenges/DefinitelyNotAlarmy/DefinitelyNotAlarmy/DefinitelyNotAlarmy/AppDelegate.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/vitorjmoriya/Documents/Academy/Challenges/DefinitelyNotAlarmy/DefinitelyNotAlarmy/DefinitelyNotAlarmy/Assets.xcassets">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/vitorjmoriya/Documents/Academy/Challenges/DefinitelyNotAlarmy/DefinitelyNotAlarmy/DefinitelyNotAlarmy/Base.lproj">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/vitorjmoriya/Documents/Academy/Challenges/DefinitelyNotAlarmy/DefinitelyNotAlarmy/DefinitelyNotAlarmy/DefinitelyNotAlarmy.xcdatamodeld">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/vitorjmoriya/Documents/Academy/Challenges/DefinitelyNotAlarmy/DefinitelyNotAlarmy/DefinitelyNotAlarmy/Info.plist">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/vitorjmoriya/Documents/Academy/Challenges/DefinitelyNotAlarmy/DefinitelyNotAlarmy/DefinitelyNotAlarmy/Main.storyboard">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/vitorjmoriya/Documents/Academy/Challenges/DefinitelyNotAlarmy/DefinitelyNotAlarmy/DefinitelyNotAlarmy/Presentation">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/vitorjmoriya/Documents/Academy/Challenges/DefinitelyNotAlarmy/DefinitelyNotAlarmy/DefinitelyNotAlarmy/SceneDelegate.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/vitorjmoriya/Documents/Academy/Challenges/DefinitelyNotAlarmy/DefinitelyNotAlarmy/DefinitelyNotAlarmy/ViewController.swift">
+   </FileRef>
+   <FileRef
       location = "self:">
    </FileRef>
 </Workspace>

@@ -87,11 +87,14 @@ class WeatherView: UIView{
         todayLabel.numberOfLines = 0
         addSubview(todayLabel)
         
+        let formatter = DateFormatter()
+        formatter.dateFormat = "EEEE, d MMMM"
+        
         let dateLabel = UILabel()
         dateLabel.translatesAutoresizingMaskIntoConstraints = false
         dateLabel.font = UIFont.systemFont(ofSize: 25, weight: .bold)
-        dateLabel.text = "Thursday, 25 May"
-        dateLabel.numberOfLines  = 0
+        dateLabel.text = formatter.string(from: Date())
+        dateLabel.numberOfLines = 0
         addSubview(dateLabel)
     
         weatherIcon.translatesAutoresizingMaskIntoConstraints = false
@@ -188,7 +191,7 @@ class WeatherView: UIView{
             todayLabel.leadingAnchor.constraint(equalTo: layoutMarginsGuide.leadingAnchor, constant: 14),
             dateLabel.topAnchor.constraint(equalTo: todayLabel.bottomAnchor, constant: 2),
             dateLabel.leadingAnchor.constraint(equalTo: layoutMarginsGuide.leadingAnchor, constant: 14),
-            weatherIcon.topAnchor.constraint(equalTo: dateLabel.bottomAnchor, constant: 50),
+            weatherIcon.topAnchor.constraint(equalTo: dateLabel.bottomAnchor, constant: 20),
             weatherIcon.leadingAnchor.constraint(equalTo: layoutMarginsGuide.leadingAnchor, constant: 5),
             localLabel.topAnchor.constraint(equalTo: dateLabel.bottomAnchor, constant: 36),
             localLabel.leadingAnchor.constraint(equalTo: weatherIcon.trailingAnchor, constant: 10),

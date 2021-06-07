@@ -19,7 +19,7 @@
 		5F2B7634266D4EE3005F69DF /* AlarmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2B7625266D4EE3005F69DF /* AlarmTableViewCell.swift */; };
 		5F2B7636266D4EE3005F69DF /* AlarmScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2B762B266D4EE3005F69DF /* AlarmScreenViewController.swift */; };
 		5F4DE49D266D5A9900F48373 /* Presentation in Resources */ = {isa = PBXBuildFile; fileRef = 5F4DE49C266D5A9900F48373 /* Presentation */; };
-		5F6D23C2266D5ED3000CCBCB /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6D23C1266D5ED3000CCBCB /* FeedViewController.swift */; };
+		5F6D23CE266D84A3000CCBCB /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6D23CD266D84A3000CCBCB /* FeedViewController.swift */; };
 		5FF88DFD266D521200F83F5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F2B762A266D4EE3005F69DF /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -39,7 +39,7 @@
 		5F2B762E266D4EE3005F69DF /* DefinitelyNotAlarmy.xcdatamodeld */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodeld; name = DefinitelyNotAlarmy.xcdatamodeld; path = /Users/vitorjmoriya/Documents/Academy/Challenges/DefinitelyNotAlarmy/DefinitelyNotAlarmy/DefinitelyNotAlarmy/DefinitelyNotAlarmy.xcdatamodeld; sourceTree = "<absolute>"; };
 		5F2B762F266D4EE3005F69DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = /Users/vitorjmoriya/Documents/Academy/Challenges/DefinitelyNotAlarmy/DefinitelyNotAlarmy/DefinitelyNotAlarmy/Info.plist; sourceTree = "<absolute>"; };
 		5F4DE49C266D5A9900F48373 /* Presentation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Presentation; sourceTree = "<group>"; };
-		5F6D23C1266D5ED3000CCBCB /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		5F6D23CD266D84A3000CCBCB /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,7 @@
 				271D9990265D1A4100DE2228 /* Assets.xcassets */,
 				271D9992265D1A4100DE2228 /* LaunchScreen.storyboard */,
 				271D998D265D1A4000DE2228 /* DefinitelyNotAlarmy.xcdatamodeld */,
-				5F6D23C1266D5ED3000CCBCB /* FeedViewController.swift */,
+				5F6D23CD266D84A3000CCBCB /* FeedViewController.swift */,
 			);
 			path = DefinitelyNotAlarmy;
 			sourceTree = "<group>";
@@ -164,8 +164,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				271D998F265D1A4000DE2228 /* DefinitelyNotAlarmy.xcdatamodeld in Sources */,
-				5F6D23C2266D5ED3000CCBCB /* FeedViewController.swift in Sources */,
 				277016F9266AB88300408AE1 /* (null) in Sources */,
+				5F6D23CE266D84A3000CCBCB /* FeedViewController.swift in Sources */,
 				271D9989265D1A4000DE2228 /* ViewController.swift in Sources */,
 				271D9985265D1A4000DE2228 /* AppDelegate.swift in Sources */,
 				271D9987265D1A4000DE2228 /* SceneDelegate.swift in Sources */,

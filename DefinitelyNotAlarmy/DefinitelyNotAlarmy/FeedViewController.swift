@@ -87,13 +87,10 @@ class WeatherView: UIView{
         todayLabel.numberOfLines = 0
         addSubview(todayLabel)
         
-        let formatter = DateFormatter()
-        formatter.dateFormat = "EEEE, d MMMM"
-        
         let dateLabel = UILabel()
         dateLabel.translatesAutoresizingMaskIntoConstraints = false
         dateLabel.font = UIFont.systemFont(ofSize: 25, weight: .bold)
-        dateLabel.text = formatter.string(from: Date())
+        dateLabel.text = "Thursday, 25 May"
         dateLabel.numberOfLines  = 0
         addSubview(dateLabel)
     
@@ -106,9 +103,6 @@ class WeatherView: UIView{
         localLabel.text = "Goiânia, Partly sunny"
         localLabel.numberOfLines  = 0
         addSubview(localLabel)
-        
-        
-        
         
         temperatureLabel.translatesAutoresizingMaskIntoConstraints = false
         temperatureLabel.font = UIFont.systemFont(ofSize: 36, weight: .regular)
@@ -194,7 +188,7 @@ class WeatherView: UIView{
             todayLabel.leadingAnchor.constraint(equalTo: layoutMarginsGuide.leadingAnchor, constant: 14),
             dateLabel.topAnchor.constraint(equalTo: todayLabel.bottomAnchor, constant: 2),
             dateLabel.leadingAnchor.constraint(equalTo: layoutMarginsGuide.leadingAnchor, constant: 14),
-            weatherIcon.topAnchor.constraint(equalTo: dateLabel.bottomAnchor, constant: 20),
+            weatherIcon.topAnchor.constraint(equalTo: dateLabel.bottomAnchor, constant: 50),
             weatherIcon.leadingAnchor.constraint(equalTo: layoutMarginsGuide.leadingAnchor, constant: 5),
             localLabel.topAnchor.constraint(equalTo: dateLabel.bottomAnchor, constant: 36),
             localLabel.leadingAnchor.constraint(equalTo: weatherIcon.trailingAnchor, constant: 10),
@@ -265,7 +259,7 @@ class HoroscopeView: UIView {
         let todayLabel = UILabel()
         todayLabel.translatesAutoresizingMaskIntoConstraints = false
         todayLabel.font = UIFont.systemFont(ofSize: 16, weight: .regular)
-        todayLabel.text = "Wake up! Your daily \nfortune is here!"
+        todayLabel.text = "Code while they sleep! \nBe yourself!"
         todayLabel.numberOfLines = 0
         addSubview(todayLabel)
         
